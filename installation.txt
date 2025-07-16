@@ -1,0 +1,23 @@
+npm create vite@latest shadcn-website-clone -- --template react-ts
+cd shadcn-website-clone
+npm install
+npx shadcn-ui@latest init
+
+
+npm install lucide-react @radix-ui/react-dialog @radix-ui/react-dropdown-menu @radix-ui/react-popover @radix-ui/react-slot @radix-ui/react-collapsible
+
+npm install react-router-dom
+npx shadcn-ui@latest add card
+npx shadcn-ui@latest add button
+npx shadcn-ui@latest add input
+# Add more components as needed
+
+Follow the prompts. Recommended settings:
+TypeScript
+Default style
+Base color: slate
+CSS variables: yes
+Global CSS: src/index.css
+Components: @/components
+utils: @/lib/utils
+
