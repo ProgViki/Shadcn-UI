@@ -6,6 +6,10 @@
     "lib": ["ES2022", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
+    "paths": {
+      "@/*": ["./src/*"]
+      },
+      "baseUrl": ".",
 
     /* Bundler mode */
     "moduleResolution": "bundler",
@@ -25,3 +29,20 @@
   },
   "include": ["src"]
 }
+// {
+//   "files": [],
+//   "references": [
+//     {
+//       "path": "./tsconfig.app.json"
+//     },
+//     {
+//       "path": "./tsconfig.node.json"
+//     }
+//   ],
+//   "compilerOptions": {
+//     "baseUrl": ".",
+//     "paths": {
+//       "@/*": ["./src/*"]
+//     }
+//   }
+// }
